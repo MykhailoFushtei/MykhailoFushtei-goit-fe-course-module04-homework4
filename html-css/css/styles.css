@@ -1,0 +1,234 @@
+html {
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-family: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.conteiner {
+    width: 1110px;
+    margin: 0 auto;
+    text-decoration: none;
+    color: inherit;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.logo {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    float: left;
+    font-size: 30px;
+    line-height: 32px;
+    color: #555252;
+}
+
+.logo::first-letter {
+    font-weight: 900;
+    color: #1abc9c;
+}
+
+.menu {
+    padding: 32px 0 86px;
+}
+
+.navigation-menu-li {
+    float: right;
+    width: 460px;
+}
+
+.navigation-menu-page:hover {
+    color: #1abc9c;
+}
+
+.navigation-menu-page:not(:last-child) {
+    margin-right: 32px;
+}
+
+.navigation-menu-page {
+    font-family: "Roboto", sans-serif;
+    margin-top: 6px;
+    float: left;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #0f0101;
+}
+
+.Products {
+    margin-bottom: 94px;
+}
+
+.section-products {
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 92px;
+    text-align: center;
+    font-size: 48px;
+    line-height: 58px;
+    text-transform: uppercase;
+    color: #515151;
+    font-weight: 900;
+}
+
+h2::after {
+    content: "";
+    display: block;
+    background-color: #1abc9c;
+    height: 7px;
+    width: 167px;
+    margin: 20px auto 0;
+}
+
+.wrapper {
+    background-color: #e9f0fd;
+    width: 255px;
+}
+
+.card-list-page:not(:nth-child(4n)) {
+    margin-right: 30px;
+}
+
+.card-list-page:not(:nth-last-child(-n + 4)) {
+    margin-bottom: 30px;
+}
+
+.card-list-page {
+    float: left;
+}
+
+.card-list-page:hover .price-link {
+    background-color: rgb(26, 188, 156);
+}
+
+.card-list-page:hover .price {
+    background-color: rgb(127, 217, 199);
+}
+
+.img-link {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+.price-link {
+    font-family: "Roboto", sans-serif;
+    display: block;
+    font-size: 18px;
+    line-height: 32px;
+    color: #ffffff;
+    font-weight: 900;
+    text-transform: uppercase;
+    background-color: #323232;
+}
+
+.price-link-name {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    padding: 4px 0 0 14px;
+    height: 40px;
+    float: left;
+    vertical-align: middle;
+    max-width: 200px;
+}
+
+.price {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    padding: 4px 12px 0 12px;
+    height: 40px;
+    float: right;
+    background-color: rgba(255, 255, 255, 0.32);
+}
+
+.news {
+    margin-bottom: 82px;
+}
+
+.section-news {
+    margin-bottom: 80px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-size: 48px;
+    line-height: 58px;
+    text-transform: uppercase;
+    color: #515151;
+    font-weight: 900;
+}
+
+h2::after {
+    content: "";
+    display: block;
+    background-color: #1abc9c;
+    height: 7px;
+    width: 167px;
+    margin: 20px auto 0;
+}
+
+.blog-section {
+    font-family: "Open Sans", sans-serif;
+    color: #555252;
+    width: 350px;
+    float: left;
+}
+
+.blog-section:not(:last-child) {
+    margin-right: 30px;
+}
+
+.blog-picture {
+    margin-bottom: 8px;
+}
+
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+.blog-heading {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 700;
+    margin-bottom: 22px;
+}
+
+.blog-heading::after {
+    content: "";
+    display: block;
+    background-color: #1abc9c;
+    height: 3px;
+    width: 136px;
+    margin: 8px 0 0 0;
+}
+
+.blog-article {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+
+.load-more {
+    display: block;
+    width: 160px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 300;
+    color: #ffffff;
+    background-color: #4ec6ab;
+    text-align: center;
+    border-radius: 4px;
+    padding-top: 10px;
+}
